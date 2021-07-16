@@ -1,0 +1,79 @@
+#bannerthing{
+	width: 100%;
+}
+#potato{
+	width:  40%;
+}
+body{
+	font-family: 'Purple Purse', cursive;
+	text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 300%;
+}
+a{
+
+	text-decoration: none;
+}
+p{
+	color: olive;
+}
+.pleces{
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border: 4px dashed springgreen;
+	border-radius: 20px;
+}
+li{
+	list-style-type: none;
+	padding: 10px;
+}
+
+#leMagickedPeanut {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#leSHEESH {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+#potato , h1, #leMagickedPeanut > h2 {
+	position: absolute;
+}
+
+#potato {
+	top: 2%;
+	left: 2%;
+}
+
+h1 {
+	 top: 40%;
+	 left: 8%;
+}
+
+#leMagickedPeanut > h2{
+	top: 82%;
+	left: 8% ;
+	background-color: seashell;
+	padding: 0.5%;
+	border-radius: 38px;
+}
+
+
+.sheeshheading{
+	padding: 2%;
+}
+
+.tHEshEsHS{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
